@@ -1,0 +1,92 @@
+# ============================================================================ #
+# AI assistants                                                                #
+# ============================================================================ #
+
+# OpenAI Codex
+.codex/
+
+# Anthropic Claude
+.claude/
+CLAUDE.md
+
+# CursorAI
+.cursor/
+.cursorignore
+.cursorrules
+
+# Google Gemini
+.gemini/
+GEMINI.md
+
+# Qwen
+.qwen/
+QWEN.md
+
+# Shared agent files
+.agents/
+AGENTS.md
+
+
+# ============================================================================ #
+# Build tools                                                                  #
+# ============================================================================ #
+
+# Gradle
+.gradle/
+build/
+
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+# ============================================================================ #
+# IDEs and editors                                                             #
+# ============================================================================ #
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# NetBeans
+/.nb-gradle/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+
+# Spring Tool Suite
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Visual Studio Code
+.vscode/
+
+
+# ============================================================================ #
+# Project-local files                                                          #
+# ============================================================================ #
+
+HELP.md
+
+
+# ============================================================================ #
+# Temporary files                                                              #
+# ============================================================================ #
+
+.temp/
